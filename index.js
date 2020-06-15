@@ -29,7 +29,7 @@ const Calculator = {
     return a / b;
   }
 }
-function actionApplyer(startingInt, arrayOfFunc){
+let actionApplyer = function(startingInt, arrayOfFunc){
  let start = startingInt
    for (let i = 0; i < arrayOfFunc.length; i++ ){
     start = arayOfFunc[i](start)
