@@ -29,6 +29,6 @@ const Calculator = {
     return a / b;
   }
 }
-function actionApplyer(){
+function actionApplyer(startingInt, arrayOfFunc){
   
 }
