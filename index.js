@@ -32,7 +32,7 @@ const Calculator = {
 let actionApplyer = function(startingInt, arrayOfFunc){
  let start = startingInt
    for (let i = 0; i < arrayOfFunc.length; i++ ){
-    start = arayOfFunc[i](start)
+    start = arrayOfFunc[i](start)
   }
 
   return start
