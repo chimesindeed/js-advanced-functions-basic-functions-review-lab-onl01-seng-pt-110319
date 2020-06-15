@@ -14,6 +14,7 @@ let wrapAdjective = function(visualFlair = '*'){
   }
 }
 let encouragingPromptFunction = wrapAdjective("!!!")
+
 const Calculator = {
   add: function(a, b) {
     return a + b;
@@ -28,3 +29,4 @@ const Calculator = {
     return a / b;
   }
 }
+
