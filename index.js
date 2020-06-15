@@ -30,7 +30,7 @@ const Calculator = {
   }
 }
 function actionApplyer(startingInt, arrayOfFunc){
-  start = startingInt
+ let start = startingInt
    for (let i = 0; i < arrayOfFunc.length; i++ ){
     start = ray[i](start)
   }
